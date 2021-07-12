@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    background-color: rgb(217, 255, 0);
+    width: 400px;
+    height: 250px;
+    margin: 10px;
+    display: inline-block;
+}
+@media only screen and (max-width:576px){
+    .box{
+        background-color: #8fc96e;
+    }
+}
+@media only screen and (min-width:577px){
+    .box{
+        background-color: #fd473a;
+        width: 30%;
+    }
+}
+@media only screen and (min-width:992px){
+    .box{
+        background-color: #2699fb;
+    }
+}
